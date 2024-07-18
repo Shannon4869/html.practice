@@ -1,0 +1,53 @@
+header{
+ background-color: blank;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.image-size {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin:80px;
+}
+
+.image-size div {
+    text-align: center;
+    margin: 10px;
+}
+
+.image-size img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .image-size {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.explanation{
+margin:0;
+ border-color: 3px solid tomato;
+ padding:2rem;
+align-items: center;
+}
+
+
